@@ -38,11 +38,12 @@ body {
 .header2 {
     display: flex;
     background: #1f2937;
-    justify-content: space-between;
-    height: 300px;
     border: red;
     border-style: dashed;
-    align-items: center;
+    flex-direction: row;
+    
+
+    
     
 }
 
@@ -52,10 +53,23 @@ body {
     color: #e5e7eb;
     font-weight:bolder;
     font-size: 48px;
-    width: 50%;
+    width: 75%;
     border: blue;
     border-style: dashed;
+    
 }
+
+.header2-text {
+    padding-left: 10%;
+    padding-top: 10px;
+    color: #e5e7eb;
+    font-weight:bolder;
+    font-size: 18px;
+    width: 50%;
+    border: green;
+    border-style: dashed;
+}
+
     
 
 img {
@@ -63,12 +77,10 @@ img {
     margin-right: 10%;
     border: #e5e7eb;
     border-style: groove;
+    align-self: flex-end;
+ 
 }
 
-.header2-text {
-    display: flex;
-    justify-content: center;
-}
 
 
     /* Links */
