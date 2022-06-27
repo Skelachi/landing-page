@@ -1,0 +1,91 @@
+body {
+    font-family: Roboto, sans-serif ;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+
+}
+
+    /* Uppermost page */
+.header {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    height: 150px;
+
+
+}
+
+.header-logo {
+    padding-left: 10%;
+    padding-top: 10px;
+    color: #e5e7eb;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.header-links {
+    padding-right: 10%;
+    padding-top: 10px;
+
+
+}
+
+    /* Main title */
+.header2 {
+    display: flex;
+    background: #1f2937;
+    justify-content: space-between;
+    height: 300px;
+    border: red;
+    border-style: dashed;
+    align-items: center;
+    
+}
+
+.header2-title {
+    padding-left: 10%;
+    padding-top: 10px;
+    color: #e5e7eb;
+    font-weight:bolder;
+    font-size: 48px;
+    width: 50%;
+    border: blue;
+    border-style: dashed;
+}
+    
+
+img {
+    height: 200px;
+    margin-right: 10%;
+    border: #e5e7eb;
+    border-style: groove;
+}
+
+.header2-text {
+    display: flex;
+    justify-content: center;
+}
+
+
+    /* Links */
+ul {
+    display: flex ;
+    list-style: none;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+
+    
+
+}
+
+    /* this removes the line under our links */
+a {
+
+    text-decoration: none;
+    color: #e5e7eb;
+  }
