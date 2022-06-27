@@ -19,7 +19,7 @@ body {
 }
 
 .header-logo {
-    padding-left: 10%;
+    padding-left: 20%;
     padding-top: 10px;
     color: #e5e7eb;
     font-weight: 700;
@@ -28,7 +28,7 @@ body {
 }
 
 .header-links {
-    padding-right: 10%;
+    padding-right: 20%;
     padding-top: 10px;
 
 
@@ -38,9 +38,8 @@ body {
 .header2 {
     display: flex;
     background: #1f2937;
-    border: red;
-    border-style: dashed;
     flex-direction: row;
+    height: 350px;
     
 
     
@@ -48,36 +47,39 @@ body {
 }
 
 .header2-title {
-    padding-left: 10%;
+    padding-left: 36%;
     padding-top: 10px;
     color: #e5e7eb;
     font-weight:bolder;
     font-size: 48px;
     width: 75%;
-    border: blue;
-    border-style: dashed;
+
     
 }
 
 .header2-text {
-    padding-left: 10%;
+    padding-left: 36%;
     padding-top: 10px;
     color: #e5e7eb;
     font-weight:bolder;
     font-size: 18px;
     width: 50%;
-    border: green;
-    border-style: dashed;
+
 }
 
-    
+.header2-right { 
+    margin-left: 6%;
+    margin-right: 10%;
+    align-items: flex-end;
+    max-height: 255px;
+
+}
 
 img {
-    height: 200px;
-    margin-right: 10%;
+    max-height: 250px;
     border: #e5e7eb;
     border-style: groove;
-    align-self: flex-end;
+    
  
 }
 
